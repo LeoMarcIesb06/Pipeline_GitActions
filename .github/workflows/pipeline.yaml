@@ -31,7 +31,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWORD }}
 
       - name: Build Image
-        run:  docker build -t alanfelipeneres/aula-devops:1.0 .
+        run:  docker build -t leomarc06/aula-devops:1.0 .
 
       - name: Push Image
-        run:  docker push alanfelipeneres/aula-devops:1.0
+        run:  docker push leomarc06/aula-devops:1.0
